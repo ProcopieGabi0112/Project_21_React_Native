@@ -1,0 +1,31 @@
+*DUTCH DELIGHT MOBILE VERSION*
+
+   1.SHORT DESCRIPTION  
+
+     This application was designed to improve customer service. This is an application made using React Native, Firebase and JsonServer.
+  Users can create an account or log in with a previously created account. After logging in, customers can see which is the menu of the day or which are the locations of our partner restaurants.
+  The menu of the day is viewed through a body response given by the url 'https://mocki.io/v1/605653ce-087a-4aa5-8162-56ccae2bd38a' where the data is saved as json file. 
+  The locations of the partner restaurants can be viewed below. Locations data has been saved in the same way.
+  If we click on a specific location below, we will be redirected to a google maps page where we can see where the restaurant we are looking for is located.
+  Users can also consult the menu, add a comment about the restaurant experience or place an order. All the data about menu, comments, or orders is stored on the Json server.
+
+   2.HOW TO RUN
+     
+     1.FORWARDING     
+     cmd >> cd C:\Users\...\JsonServer
+     cmd >> npm run tunnel
+
+           2.MODIFY THE URLs IN THE APP
+           Check Menu.js, Order.js and Comment.js
+
+                            3.RUN SERVER DB
+                                  cmd >> cd C:\Users\...\JsonServer
+                                  cmd >> npm run db
+
+                                         4.CHECK DATABASE
+                                            Visit http://localhost:3000 to see if 
+                                            the database is up.
+
+                                                5.RUN THE APP
+                                                  cmd >> cd C:\Users\...\React_Native_App
+                                                  cmd >> npm start
